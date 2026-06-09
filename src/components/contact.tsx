@@ -33,8 +33,8 @@ function InstagramIcon({ className = "w-5 h-5" }: { className?: string }) {
 }
 
 const contactMethods = [
-  { icon: <EmailIcon className="w-6 h-6" />, label: "Email", value: "hitesh@woxxy.co.in", href: "mailto:hitesh@woxxy.co.in" },
-  { icon: <WhatsAppIcon className="w-6 h-6" />, label: "WhatsApp", value: "+91 98290 99799", href: "https://wa.me/919829099799" },
+  { icon: <EmailIcon className="w-6 h-6" />, label: "Email", value: "skincare@woxxy.co.in", href: "mailto:skincare@woxxy.co.in" },
+  { icon: <WhatsAppIcon className="w-6 h-6" />, label: "WhatsApp", value: "+91 90793 14196", href: "https://wa.me/919079314196" },
   { icon: <InstagramIcon className="w-6 h-6" />, label: "Instagram", value: "@woxxyskincare", href: "https://www.instagram.com/woxxyskincare/" },
 ];
 
@@ -111,7 +111,7 @@ export default function Contact() {
                 </p>
                 <Magnetic strength={0.15}>
                   <a
-                    href="https://wa.me/919829099799"
+                    href="https://wa.me/919079314196"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group relative inline-flex items-center gap-3 h-[54px] px-8 bg-burgundy text-cream-on-dark rounded-full text-sm tracking-[0.15em] uppercase font-sans font-medium overflow-hidden transition-all duration-400 hover:shadow-xl hover:shadow-burgundy/20 hover:-translate-y-0.5"
